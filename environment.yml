@@ -2,7 +2,7 @@ name: python-ml
 dependencies:
 - python=3.9
 - numpy
-- scikit-learn
+- scikit-learn-intelex
 - pandas
 - matplotlib
 - jupyter
@@ -11,9 +11,12 @@ dependencies:
 - flask
 - wtforms
 - seaborn
-- pydot
+- pydotplus
 - imageio
 - scipy
+- tpot
+- graphviz
+- pyparsing
 
 - pip:
   - tensorflow==latest
