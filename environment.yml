@@ -17,8 +17,6 @@ dependencies:
 - tpot
 - graphviz
 - pyparsing
-
-- pip:
-  - tensorflow==latest
-  - watermark  
-  - pyprind
+- tensorflow==latest
+- watermark  
+- pyprind
