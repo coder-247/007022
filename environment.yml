@@ -1,6 +1,6 @@
 name: python-ml
 dependencies:
-- python=3.7
+- python=3.9
 - numpy
 - scikit-learn
 - pandas
@@ -13,7 +13,9 @@ dependencies:
 - seaborn
 - pydot
 - imageio
+- scipy
+
 - pip:
-  - tensorflow==2.0.0.a0
+  - tensorflow==latest
   - watermark  
   - pyprind
